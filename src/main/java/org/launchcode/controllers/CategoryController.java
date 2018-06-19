@@ -34,7 +34,6 @@ public class CategoryController {
     public String displayAddCategoryForm(Model model) {
         model.addAttribute("title", "Add Category");
         model.addAttribute(new Category());
-        //model.addAttribute("cheeseTypes", CheeseType.values());
         return "category/add";
     }
 
